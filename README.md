@@ -1,4 +1,4 @@
-# Vehicle_identification
+# Vehicle_recognition
 
 ### Install library
   pip install -r requirements
