@@ -1,8 +1,16 @@
 # Vehicle_recognition
+### Win(Power Shell)
+# install ffmp if not already
+  winget install ffmpeg
+# Train model
+  ./run.bat
+# Streamlit
+streamlit run app.py
 
-### Install library
+### Ubuntu
+# Install library
   pip install -r requirements
-### Train model
+# Train model
   ./run.sh
-### Streamlit
+# Streamlit
   streamlit run app.py
