@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 import os
 
-def detect_video(video_path, output_path, model_path='weights/best.pt', conf=0.4):
+def detect_video(video_path, output_path, model_path='/media/truong/01DBB45ECE0C4E00/dl/nhan_dien_xe/runs/detect/train2/weights/best.pt', conf=0.4):
     model = YOLO(model_path)
     cap = cv2.VideoCapture(video_path)
 
