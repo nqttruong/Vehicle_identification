@@ -1,6 +1,7 @@
 # Vehicle_identification
 
-### pip install -r requirements
+### Install library
+  pip install -r requirements
 ### Train model
   ./run.sh
 ### Streamlit
